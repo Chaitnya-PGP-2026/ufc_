@@ -1,7 +1,9 @@
+pip install --upgrade "markitdown[all]"
 import streamlit as st
 import os
 from markitdown import MarkItDown
 from io import BytesIO
+
 
 # Initialize MarkItDown engine
 md = MarkItDown()
