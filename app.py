@@ -1,12 +1,12 @@
-pip install --upgrade "markitdown[all]"
 import streamlit as st
 import os
 from markitdown import MarkItDown
 from io import BytesIO
 
-
 # Initialize MarkItDown engine
 md = MarkItDown()
+
+# ... rest of your code ...
 
 # Page configuration
 st.set_page_config(page_title="Universal Doc Reader", page_icon="📄", layout="wide")
